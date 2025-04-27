@@ -1,0 +1,35 @@
+Closing stale open session for new outgoing prekey bundle
+
+| Closing session: SessionEntry {
+| _chains: {
+| 'BSIZD/AfTYrMubPsLqJfqQGFCJz2vy6OQoznfpjyoeJb': { chainKey: [Object], chainType: 1, messageKeys: {} }
+| },
+| registrationId: 1025527295,
+| currentRatchet: {
+| ephemeralKeyPair: {
+| pubKey: <Buffer 05 22 19 0f f0 1f 4d 8a cc b9 b3 ec 2e a2 5f a9 01 85 08 9c f6 bf 2e 8e 42 8c e7 7e 98 f2 a1 e2 5b>,
+| privKey: <Buffer 18 bc c5 07 0c 07 58 3c 66 a0 5c 0a 43 62 fe ac 02 dc 16 e1 d6 04 ee 9c 3e 01 12 5d 17 7d a3 7c>
+| },
+| lastRemoteEphemeralKey: <Buffer 05 45 e5 a6 c8 a1 17 fe d2 34 60 7c 98 f7 9c ba b6 b4 3b 3c 19 d2 e6 eb 07 34 cd eb 25 80 ee 31 2b>,
+| previousCounter: 0,
+| rootKey: <Buffer f0 6d 90 d2 bb 97 45 f4 07 6c 97 70 75 67 9f ed 04 5e f2 4d 58 6e 25 b8 bb b6 90 b6 4b 7d b7 63>
+| },
+| indexInfo: {
+| baseKey: <Buffer 05 f3 cd d1 db d5 bd c0 b0 e0 ff 59 d9 71 5f d7 d2 93 af 74 82 ff 94 c8 a7 59 82 f9 b7 26 1b de 4b>,
+| baseKeyType: 1,
+| closed: -1,
+| used: xxxxx,
+| created: 1740062535532,
+| remoteIdentityKey: <Buffer 05 e1 e0 9f 85 a2 66 a6 4f 42 c0 df 23 d8 6c 68 bf 69 c6 2d dd 88 b1 6c ad e6 2c e0 3f 6a 98 aa 7c>
+| },
+| pendingPreKey: {
+| signedKeyId: 0,
+| baseKey: <Buffer 05 f3 cd d1 db d5 bd c0 b0 e0 ff 59 d9 71 5f d7 d2 93 af 74 82 ff 94 c8 a7 59 82 f9 b7 26 1b de 4b>,
+| preKeyId: 9398117
+| }
+| }
+| Cache request for group: https://chat.whatsapp.com/DUsr02zYAPWCaooufUZSaA
+| Removing old closed session: SessionEntry {
+| _chains: {
+| 'BbTlwSWUKS9ECKZYmC/WGazD78VGvVpe8y35FZH2ChF7': { chainKey: [Object], chainType: 1, messageKeys: {} }
+`
